@@ -1,0 +1,10 @@
+//Program to display palindrome numbers in a given rang
+
+let rec reverse (n, x) = n gr 0 -> reverse (n/10, (x*10 + n - (n/10)*10)) | x
+	within
+		rec pali(a, b) = 
+			b ls a -> '' |
+			reverse (a,0) eq a -> (pali(a+1,b), print(' '), print(a))|
+				pali(a+1,b)						
+in
+pali(30, 100)
